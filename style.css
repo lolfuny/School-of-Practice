@@ -1354,6 +1354,18 @@ html[dir="rtl"] .field select{
 }
 .consent-field .field-error{ margin-inline-start:28px; }
 
+.form-note{
+  margin:4px 0 18px;
+  color:var(--muted);
+  font-size:.85rem;
+  line-height:1.6;
+}
+.form-note a{
+  color:var(--royal);
+  text-decoration:underline;
+  text-underline-offset:2px;
+}
+
 .form-honeypot{
   position:absolute !important;
   width:1px !important;
